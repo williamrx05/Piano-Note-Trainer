@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D3C23CF22F52DC200D50212 /* Adobe Caslon Pro Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D3C23CE22F52DA000D50212 /* Adobe Caslon Pro Regular.ttf */; };
+		3D3D89F322ECA17B00EE03F7 /* UIView+Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D89F222ECA17B00EE03F7 /* UIView+Shake.swift */; };
 		3D4BC19222E361DE00D87BA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BC19122E361DE00D87BA0 /* AppDelegate.swift */; };
-		3D4BC19422E361DE00D87BA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BC19322E361DE00D87BA0 /* ViewController.swift */; };
+		3D4BC19422E361DE00D87BA0 /* PianoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BC19322E361DE00D87BA0 /* PianoView.swift */; };
 		3D4BC19722E361DE00D87BA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4BC19522E361DE00D87BA0 /* Main.storyboard */; };
 		3D4BC19922E361EB00D87BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4BC19822E361EB00D87BA0 /* Assets.xcassets */; };
 		3D4BC19C22E361EB00D87BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4BC19A22E361EB00D87BA0 /* LaunchScreen.storyboard */; };
 		3D4BC1A722E361EB00D87BA0 /* Piano_ThingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BC1A622E361EB00D87BA0 /* Piano_ThingTests.swift */; };
 		3D4BC1B222E361EB00D87BA0 /* Piano_ThingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BC1B122E361EB00D87BA0 /* Piano_ThingUITests.swift */; };
+		3D887CDA22F8833300E7E463 /* Adobe Caslon Pro Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D887CD922F8833100E7E463 /* Adobe Caslon Pro Bold.ttf */; };
+		3DB3FA3722E7E4B800176F5C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB3FA3622E7E4B800176F5C /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D3C23CE22F52DA000D50212 /* Adobe Caslon Pro Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Adobe Caslon Pro Regular.ttf"; sourceTree = "<group>"; };
+		3D3D89F222ECA17B00EE03F7 /* UIView+Shake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shake.swift"; sourceTree = "<group>"; };
 		3D4BC18E22E361DE00D87BA0 /* Piano Thing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Piano Thing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4BC19122E361DE00D87BA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D4BC19322E361DE00D87BA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D4BC19322E361DE00D87BA0 /* PianoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoView.swift; sourceTree = "<group>"; };
 		3D4BC19622E361DE00D87BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D4BC19822E361EB00D87BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D4BC19B22E361EB00D87BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		3D4BC1AD22E361EB00D87BA0 /* Piano ThingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Piano ThingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4BC1B122E361EB00D87BA0 /* Piano_ThingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piano_ThingUITests.swift; sourceTree = "<group>"; };
 		3D4BC1B322E361EB00D87BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D887CD922F8833100E7E463 /* Adobe Caslon Pro Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Adobe Caslon Pro Bold.ttf"; path = "../../../../Downloads/Adobe Caslon Pro Bold/Adobe Caslon Pro Bold.ttf"; sourceTree = "<group>"; };
+		3DB3FA3622E7E4B800176F5C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,13 +82,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D3C23CD22F52D9900D50212 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3D887CD922F8833100E7E463 /* Adobe Caslon Pro Bold.ttf */,
+				3D3C23CE22F52DA000D50212 /* Adobe Caslon Pro Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		3D4BC18522E361DE00D87BA0 = {
 			isa = PBXGroup;
 			children = (
+				3D3C23CD22F52D9900D50212 /* fonts */,
 				3D4BC19022E361DE00D87BA0 /* Piano Thing */,
 				3D4BC1A522E361EB00D87BA0 /* Piano ThingTests */,
 				3D4BC1B022E361EB00D87BA0 /* Piano ThingUITests */,
 				3D4BC18F22E361DE00D87BA0 /* Products */,
+				DE6C16534672FC69925D2A17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +117,9 @@
 			isa = PBXGroup;
 			children = (
 				3D4BC19122E361DE00D87BA0 /* AppDelegate.swift */,
-				3D4BC19322E361DE00D87BA0 /* ViewController.swift */,
+				3D4BC19322E361DE00D87BA0 /* PianoView.swift */,
+				3D3D89F222ECA17B00EE03F7 /* UIView+Shake.swift */,
+				3DB3FA3622E7E4B800176F5C /* SettingsView.swift */,
 				3D4BC19522E361DE00D87BA0 /* Main.storyboard */,
 				3D4BC19822E361EB00D87BA0 /* Assets.xcassets */,
 				3D4BC19A22E361EB00D87BA0 /* LaunchScreen.storyboard */,
@@ -125,6 +146,13 @@
 			path = "Piano ThingUITests";
 			sourceTree = "<group>";
 		};
+		DE6C16534672FC69925D2A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D4BC1B922E361EB00D87BA0 /* Build configuration list for PBXNativeTarget "Piano ThingTests" */;
 			buildPhases = (
+				86FF79D9B78DD27140C3D50C /* [CP] Check Pods Manifest.lock */,
 				3D4BC19E22E361EB00D87BA0 /* Sources */,
 				3D4BC19F22E361EB00D87BA0 /* Frameworks */,
 				3D4BC1A022E361EB00D87BA0 /* Resources */,
+				6400FF7671D19543F66046B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D4BC1BC22E361EB00D87BA0 /* Build configuration list for PBXNativeTarget "Piano ThingUITests" */;
 			buildPhases = (
+				A5E365E2C6E62AD6985B4670 /* [CP] Check Pods Manifest.lock */,
 				3D4BC1A922E361EB00D87BA0 /* Sources */,
 				3D4BC1AA22E361EB00D87BA0 /* Frameworks */,
 				3D4BC1AB22E361EB00D87BA0 /* Resources */,
+				26421310545F0B0FEA96C0D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +263,8 @@
 			files = (
 				3D4BC19C22E361EB00D87BA0 /* LaunchScreen.storyboard in Resources */,
 				3D4BC19922E361EB00D87BA0 /* Assets.xcassets in Resources */,
+				3D887CDA22F8833300E7E463 /* Adobe Caslon Pro Bold.ttf in Resources */,
+				3D3C23CF22F52DC200D50212 /* Adobe Caslon Pro Regular.ttf in Resources */,
 				3D4BC19722E361DE00D87BA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,12 +285,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26421310545F0B0FEA96C0D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Piano ThingUITests/Pods-Piano ThingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6400FF7671D19543F66046B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Piano ThingTests/Pods-Piano ThingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86FF79D9B78DD27140C3D50C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Piano ThingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E365E2C6E62AD6985B4670 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Piano ThingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D4BC18A22E361DE00D87BA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D4BC19422E361DE00D87BA0 /* ViewController.swift in Sources */,
+				3DB3FA3722E7E4B800176F5C /* SettingsView.swift in Sources */,
+				3D3D89F322ECA17B00EE03F7 /* UIView+Shake.swift in Sources */,
+				3D4BC19422E361DE00D87BA0 /* PianoView.swift in Sources */,
 				3D4BC19222E361DE00D87BA0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,12 +528,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8NP73DFT7;
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Piano Thing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Aa.Piano-Thing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,12 +546,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8NP73DFT7;
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Piano Thing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Aa.Piano-Thing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
